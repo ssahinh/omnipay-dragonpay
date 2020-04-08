@@ -1,0 +1,30 @@
+{
+    "name": "sethsahin/omnipay-dragonpay",
+    "type": "library",
+    "description": "Dragonpay driver for omnipay",
+    "keywords": [
+        "gateway",
+        "Dragonpay gateway service",
+        "merchant",
+        "Dragonpay",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "authors": [
+        {
+            "name": "sahin"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\Dragonpay\\": "src/"
+        }
+    },
+    "require": {
+        "omnipay/common": "^3"
+    },
+    "require-dev": {
+        "league/omnipay": "^3"
+    }
+}
