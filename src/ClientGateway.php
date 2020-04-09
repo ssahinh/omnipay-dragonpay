@@ -14,7 +14,7 @@ use Omnipay\Common\AbstractGateway;
  * @method \Omnipay\Common\Message\RequestInterface updateCard(array $options = array())
  * @method \Omnipay\Common\Message\RequestInterface deleteCard(array $options = array())
  */
-class DragonpayGateway extends AbstractGateway
+class ClientGateway extends AbstractGateway
 {
 
     /**
@@ -31,7 +31,7 @@ class DragonpayGateway extends AbstractGateway
     public function getDefaultParameters()
     {
         return array (
-            'currency'      => 'PHP',
+            'currency'      => 'USD',
         );
     }
 
